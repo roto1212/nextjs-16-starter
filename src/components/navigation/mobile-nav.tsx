@@ -1,11 +1,17 @@
 'use client'
 
+import type { Route } from 'next'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 import { Separator } from '@/components/ui/separator'
 
-const navItems = [
+interface NavItem {
+  title: string
+  href: Route
+}
+
+const navItems: NavItem[] = [
   { title: '홈', href: '/' },
   { title: '로그인', href: '/login' },
 ]

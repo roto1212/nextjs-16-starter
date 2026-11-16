@@ -1,12 +1,13 @@
 'use client'
 
+import type { Route } from 'next'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
 
 interface NavItem {
   title: string
-  href: string
+  href: Route
 }
 
 const navItems: NavItem[] = [{ title: '홈', href: '/' }]

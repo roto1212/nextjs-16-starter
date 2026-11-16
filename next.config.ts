@@ -3,6 +3,9 @@ import type { NextConfig } from 'next'
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   compress: true,
+  typedRoutes: true,
+  cacheComponents: true,
+  partialPrefetching: true,
   images: {
     formats: ['image/webp', 'image/avif'],
   },

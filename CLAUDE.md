@@ -13,8 +13,6 @@
 
 ## 📚 개발 가이드
 
-- **🗺️ 개발 로드맵**: `@/docs/ROADMAP.md`
-- **📋 프로젝트 요구사항**: `@/docs/PRD.md`
 - **📁 프로젝트 구조**: `@/docs/guides/project-structure.md`
 - **🎨 스타일링 가이드**: `@/docs/guides/styling-guide.md`
 - **🧩 컴포넌트 패턴**: `@/docs/guides/component-patterns.md`
@@ -25,19 +23,19 @@
 
 ```bash
 # 개발
-ppnpm dev         # 개발 서버 실행 (Turbopack)
-ppnpm build       # 프로덕션 빌드
-ppnpm check-all   # 모든 검사 통합 실행 (권장)
+pnpm dev         # 개발 서버 실행 (Turbopack)
+pnpm build       # 프로덕션 빌드
+pnpm check-all   # 모든 검사 통합 실행 (권장)
 
 # UI 컴포넌트
-ppnpm dlx shadcn@latest add button    # 새 컴포넌트 추가
+pnpm dlx shadcn@latest add button    # 새 컴포넌트 추가
 ```
 
 ## ✅ 작업 완료 체크리스트
 
 ```bash
-ppnpm check-all   # 모든 검사 통과 확인
-ppnpm build       # 빌드 성공 확인
+pnpm check-all   # 모든 검사 통과 확인
+pnpm build       # 빌드 성공 확인
 ```
 
-💡 **상세 규칙은 위 개발 가이드 문서들을 참조하세요
+💡 **상세 규칙은 위 개발 가이드 문서들을 참조하세요**
